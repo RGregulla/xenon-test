@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xtc:Testcase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xtc="https://xenon.sv.db.de/xenon/XMLTestcaseSchema" xmlns:xtr="https://xenon.sv.db.de/xenon/XMLReportSchema" xmlns:xdep="https://xenon.sv.db.de/xenon/XMLDependencySchema" xmlns:xpr="https://xenon.sv.db.de/xenon/XMLProjectSchema" xmlns:xcp="https://xenon.sv.db.de/xenon/XMLComponentSchema" xtc:uuid="c871beb6-9c78-47c3-9705-1d16a2e30a7f" version="bfba484e-b830-45b3-b300-5b10b039bf0e" created="2018-05-07T10:22:50.458+02:00" modified="2018-05-07T10:26:31.543+02:00" name="2Dd_EVI_RefTestCase" description="" xtc:testtool="Selenium" type="Testcase">
+    <xtc:Parameters xsi:type="xtc:ParameterStatic" value="Chrome" xtc:uuid="a4c3d57e-2fb0-477f-92ea-00304cec4adb" name="Browser" description=""/>
+    <xtc:Testscript xsi:type="xtc:TestcaseInstance" tcuuid="3bf9fbdc-69a3-4fb0-afb4-8518ef8f7d55" xtc:uuid="64e9f743-7f5b-4ba0-82f6-db8ce556525f" exitOnFailure="true">
+        <xtc:parameterInstance xsi:type="xtc:ParameterReference" referenceuuid="a4c3d57e-2fb0-477f-92ea-00304cec4adb" xtc:uuid="827d98e4-2a66-4cc4-b838-04eb1e0148cc" name="Browser" description="" referenceId="93d4b789-8ade-4e70-8080-c7f1f34bda20"/>
+    </xtc:Testscript>
+</xtc:Testcase>

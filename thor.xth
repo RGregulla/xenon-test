@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xth:RootFolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xth="https://xenon.sv.db.de/xenon/XMLThorSchema">
+    <xth:Folder name="Anwendungsdaten" uuid="ab2e6440-149f-4411-98e8-f1b19138e498">
+        <xth:Entry name="Browser" value="Chrome" uuid="ce55c2a9-7adb-4bed-80a1-53bde18c00ad"/>
+        <xth:Entry name="URL" value="https://evi.intranet.deutschebahn.com/" uuid="926b2d11-0edb-4fb8-a571-0af8c05eab17"/>
+    </xth:Folder>
+    <xth:Folder name="Anwendungsdaten_Wikipedia" uuid="658b55f9-aab5-4be7-a030-9b569370fdf3">
+        <xth:Entry name="URL" value="https://www.wikipedia.de" uuid="a528520b-d572-4a62-9be8-ed720d6cc485"/>
+    </xth:Folder>
+</xth:RootFolder>

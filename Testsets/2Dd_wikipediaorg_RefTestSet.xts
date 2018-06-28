@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xtc:Testcase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xtc="https://xenon.sv.db.de/xenon/XMLTestcaseSchema" xmlns:xtr="https://xenon.sv.db.de/xenon/XMLReportSchema" xmlns:xdep="https://xenon.sv.db.de/xenon/XMLDependencySchema" xmlns:xpr="https://xenon.sv.db.de/xenon/XMLProjectSchema" xmlns:xcp="https://xenon.sv.db.de/xenon/XMLComponentSchema" xtc:uuid="c26d04d5-e323-4d31-89cb-998936d25ad1" version="26bfc4c2-8d94-43a4-9077-6fc01c161b64" created="2018-05-07T10:36:19.685+02:00" modified="2018-05-07T10:37:44.005+02:00" name="2Dd_wikipediaorg_RefTestSet" description="" xtc:testtool="Selenium" type="Testset">
+    <xtc:Tags>2Dd_wikipediaorg_RefTestSet</xtc:Tags>
+    <xtc:Testscript xsi:type="xtc:TestcaseInstance" tcuuid="3c50fd8f-59e7-487c-91e5-8ec996b08333" xtc:uuid="78c5dd0f-e709-45e7-ad27-9fc09474fdb5" exitOnFailure="true">
+        <xtc:parameterInstance xsi:type="xtc:ParameterStatic" value="Chrome" xtc:uuid="f1471084-f760-4ec4-9a29-9435aac5b43f" name="Browser" description="" referenceId="695fd9c5-7fe0-4e7b-bada-73fc36b7b0ac"/>
+        <xtc:parameterInstance xsi:type="xtc:ParameterStatic" value="DB Systel" xtc:uuid="a47a286f-865a-4d46-84bd-a437b50dc7ee" name="Erwartungswert_Überschrift" description="" referenceId="7deb5594-ab79-43e5-9f6b-4fe08feba454"/>
+        <xtc:parameterInstance xsi:type="xtc:ParameterStatic" value="DB Systel" xtc:uuid="fcbe9185-c05e-4411-bc63-7f8352a1c358" name="Suchbegriff" description="" referenceId="9a0ae579-d216-445a-9a51-01784ff672b2"/>
+    </xtc:Testscript>
+</xtc:Testcase>

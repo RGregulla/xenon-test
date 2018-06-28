@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xtc:Testcase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xtc="https://xenon.sv.db.de/xenon/XMLTestcaseSchema" xmlns:xtr="https://xenon.sv.db.de/xenon/XMLReportSchema" xmlns:xdep="https://xenon.sv.db.de/xenon/XMLDependencySchema" xmlns:xpr="https://xenon.sv.db.de/xenon/XMLProjectSchema" xmlns:xcp="https://xenon.sv.db.de/xenon/XMLComponentSchema" xtc:uuid="3c50fd8f-59e7-487c-91e5-8ec996b08333" version="2615a174-de8c-4f37-8d2b-86c1f4326917" created="2018-05-07T10:26:55.037+02:00" modified="2018-05-07T10:37:12.695+02:00" name="2Dd_wikipediaorg_RefTestCase" description="" xtc:testtool="Selenium" type="Testcase">
+    <xtc:Parameters xsi:type="xtc:ParameterStatic" value="DB Systel" xtc:uuid="7deb5594-ab79-43e5-9f6b-4fe08feba454" name="Erwartungswert_Überschrift" description=""/>
+    <xtc:Parameters xsi:type="xtc:ParameterStatic" value="DB Systel" xtc:uuid="9a0ae579-d216-445a-9a51-01784ff672b2" name="Suchbegriff" description=""/>
+    <xtc:Parameters xsi:type="xtc:ParameterStatic" value="Chrome" xtc:uuid="695fd9c5-7fe0-4e7b-bada-73fc36b7b0ac" name="Browser" description=""/>
+    <xtc:Testscript xsi:type="xtc:TestcaseInstance" tcuuid="1bb6d59d-478b-4d6c-8ab7-14f498ca1da4" xtc:uuid="57150f0b-56a9-482b-a42f-22e88597ced5" exitOnFailure="true">
+        <xtc:parameterInstance xsi:type="xtc:ParameterReference" referenceuuid="695fd9c5-7fe0-4e7b-bada-73fc36b7b0ac" xtc:uuid="d76b5f30-10ab-4105-90f3-148a23f3e2d2" name="Browser" description="" referenceId="93d4b789-8ade-4e70-8080-c7f1f34bda20"/>
+    </xtc:Testscript>
+    <xtc:Testscript xsi:type="xtc:TestcaseInstance" tcuuid="45e560cd-947f-44fd-bb33-5d87d4b8f173" xtc:uuid="23cd18ca-dc47-4b00-b46f-f23a02e56b1f" exitOnFailure="true">
+        <xtc:parameterInstance xsi:type="xtc:ParameterReference" referenceuuid="9a0ae579-d216-445a-9a51-01784ff672b2" xtc:uuid="c8529940-794b-4d52-9fdd-b9637e223777" name="Suchebegriff" description="" referenceId="be7f3061-d861-42dd-83b3-a4c68f33acc0"/>
+    </xtc:Testscript>
+    <xtc:Testscript xsi:type="xtc:TestcaseInstance" tcuuid="c34f2454-d5aa-4033-b634-5c2fe162c554" xtc:uuid="3899f8a7-d638-4a75-a17d-c8609c27e7d3" exitOnFailure="true">
+        <xtc:parameterInstance xsi:type="xtc:ParameterReference" referenceuuid="7deb5594-ab79-43e5-9f6b-4fe08feba454" xtc:uuid="d1351812-a9db-4c24-80d2-f7920e882675" name="Erwartungswert_Überschrift" description="" referenceId="f7098860-8926-45fa-907f-9198d854f2b9"/>
+    </xtc:Testscript>
+</xtc:Testcase>
